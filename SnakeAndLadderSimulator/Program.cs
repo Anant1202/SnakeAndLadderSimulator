@@ -8,7 +8,7 @@ namespace SnakeAndLadderSimulator
         {
             Console.WriteLine("Welcome to Snake & Ladder Simulator Program");
             Snake_Ladder_Simulator ob1= new Snake_Ladder_Simulator();
-            ob1.DieRoll();
+            ob1.checkForOptions();
         }
     }
 }
